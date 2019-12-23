@@ -1,37 +1,6 @@
 
-@media (min-width:768px) {
-.database {
-    width:50%;
-    margin-left:25%;
-    margin-right:25%;
-}
-.demo {
-    margin-left:25%;
-    margin-right:25%;
-}
-.twilio {
-    width:25%;
-    margin-left:37.5%;
-    margin-right:37.5%;
-}
-}
-@media (max-width:767px) {
-    .database {
-        width:25%;
-        margin-left:37.5%;
-        margin-right:37.5%;
-    }
-    .demo {
-        width:25%;
-        margin-left:37.5%;
-        margin-right:37.5%;
-    }
-    .twilio {
-        width:25%;
-        margin-left:37.5%;
-        margin-right:37.5%;
-    }
-    }
+
+
 #loadAnimation {
     text-align: center;
     animation: fadein 2s;

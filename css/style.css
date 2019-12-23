@@ -1,0 +1,64 @@
+
+@media (min-width:768px) {
+.database {
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+}
+.demo {
+    margin-left:25%;
+    margin-right:25%;
+}
+.twilio {
+    width:25%;
+    margin-left:37.5%;
+    margin-right:37.5%;
+}
+}
+#loadAnimation {
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+#secondNav {
+    left:0;
+    height:40px;
+    width:50%;
+    margin-left:25%;
+    z-index: 1;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

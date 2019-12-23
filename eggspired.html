@@ -142,7 +142,7 @@
     <section id="about" style="padding:10%; margin-bottom:-10%">
 
 <h3>About the project</h3>
-<div class="row no-gutters">
+<div class="no-gutters">
 <p>The idea behind this project was to create something that people use often, but <strong>not efficiently</strong>.
   With our goal in mind of focusing on sustainability, we had looked at things that people often overlook
   in everyday activities that amalgamate to be a bigger issue than someone may think on an individual basis. 
@@ -164,19 +164,19 @@
 
 <section id="function" style="padding:10%; margin-bottom:-10%">
 <h3>How It Works</h3>
-<div class="row no-gutters">
+<div class="no-gutters">
   <p>I had first created the bare front-end of the website with HTML, CSS, and JavaScript to function
     as a grocery list that was able to take user input of items and add them to the screen. The main 
     functionality of the application comes from the back-end. First, we webscraped data from a website called
     eatbydate.com to create a database in mySQL of various grocery items and their corresponding
     expiration dates.   
   </p>
-  <img class="img-responsive mobile" src="img/eggspired/Eggspired Catalog.png"> </img>
+  <img src="img/eggspired/Eggspired Catalog.png"> </img>
   <p>
     Using PHP, we connected our front-end to take user input of added grocery items
     and insert them into a separate part of our database. 
 </p>
-<img class="img-responsive mobile" src="img/eggspired/Eggspired Database.png"> </img>
+<img src="img/eggspired/Eggspired Database.png"> </img>
 
 <p>
       When the user checks the item off of their
@@ -184,13 +184,13 @@
       time is then parsed into a date from the current time and displayed back on the bottom of the list. 
   </p>
   <div class="embed-responsive embed-responsive-16by9">
-  <video class="demo" controls muted ><source src="img/eggspired/EggspiredDemo.mp4" type="video/mp4"></video>
+  <video class="demo" controls muted poster="img/eggspired.png"><source src="img/eggspired/EggspiredDemo.mp4" type="video/mp4"></video>
   </div><p>
       I had connected the database to an automated system where the current time is checked against the 
       expiration date. If the expiration is within a day or less, the program connects to Twilio and
       sends out a text message reminding the user of their specific item and that the expiration is near. 
     </p>
-    <img class="img-responsive mobile" style="width:25%; margin-left:37.5%"src="img/eggspired/twilio.PNG"> </img>
+    <img style="width:25%" src="img/eggspired/twilio.PNG"> </img>
 </div>
 </section>
 

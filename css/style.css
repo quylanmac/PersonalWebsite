@@ -1,5 +1,8 @@
-
-
+@media(max-width:767px) {
+    .mobile {
+        max-width:50%;
+    }
+}
 
 #loadAnimation {
     text-align: center;

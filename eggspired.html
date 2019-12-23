@@ -16,11 +16,12 @@
   <!-- Custom fonts for this template -->
   <link href="css/all.min.css" rel="stylesheet" type="text/css">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" type="text/css"> 
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" type="text/css">
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   <link href="css/simple-line-icons.css" rel="stylesheet">
 
@@ -31,225 +32,232 @@
   <link href="css/style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
-  $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-  
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-  
-        // Store hash
-        var hash = this.hash;
-  
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-  
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
     });
-  });
-  </script> 
+  </script>
 </head>
 
 <body id="page-top">
-<div id="loadAnimation">
-     <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top container" id="mainNav">
-    <div class=" d-flex flex-grow-1">
+  <div id="loadAnimation">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top container" id="mainNav">
+      <div class=" d-flex flex-grow-1">
         <span class="w-100 d-lg-none d-block"></span>
 
-    <a class="navbar-brand mx-auto d-lg-none d-inline-block text-uppercase" href="index.html">Quylan Thanh Mac</a>
-    <div class="w-100 text-right">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    </div>
-</div>
-        <div class="navbar-collapse collapse w-100 order-md-0 dual-collapse2">
-                <ul class="navbar-nav abs-center-x">
-                        <li class="nav-item">
-                            <a class="navbar-brand d-none d-lg-inline-block text-uppercase" href="index.html">
-                                Quylan Thanh Mac
-                            </a>
-                        </li>
-                    </ul>
-                <div class="order-2">
-                <ul class="navbar-nav justify-content-between flex-nowrap">
-                        <li class="nav-item">
-                            <a class="nav-link m-2 menu-item js-scrolltrigger" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link m-2 menu-item js-scrolltrigger" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link m-2 menu-item js-scrolltrigger" href="resume.pdf" target="_blank">Resume</a>
-                        </li>
-                    </ul>
-                </div>
-            
-            <div class="navbar-collapse collapse dual-nav w-50 order-1" id="navbarResponsive">
-                    <ul class="nav navbar-nav ">
-                        <li class="nav-item ">
-                                <a class="nav-link" href="https://www.linkedin.com/in/quylan-mac-0a906b16a/" target="_blank">
-                                  <i class="fab fa-linkedin-in"></i>
-                                </a>
-                        </li>
-                        <li class="nav-item">
-                                <a class="nav-link" href="https://github.com/quylanmac/" target="_blank">
-                                    <i class="icon-social-github"></i>
-                                  </a>
-                        </li>
-                        <li class="nav-item ">
-                                <a class="nav-link" href="mailto:quylanmac@gmail.com" target="_blank">
-                                  <i class="far fa-envelope"></i>
-                                </a>
-                        </li>
-                    </ul>
-                </div>
-            
+        <a class="navbar-brand mx-auto d-lg-none d-inline-block text-uppercase" href="index.html">Quylan Thanh Mac</a>
+        <div class="w-100 text-right">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-    </nav>
+      </div>
+      <div class="navbar-collapse collapse w-100 order-md-0 dual-collapse2">
+        <ul class="navbar-nav abs-center-x">
+          <li class="nav-item">
+            <a class="navbar-brand d-none d-lg-inline-block text-uppercase" href="index.html">
+              Quylan Thanh Mac
+            </a>
+          </li>
+        </ul>
+        <div class="order-2">
+          <ul class="navbar-nav justify-content-between flex-nowrap">
+            <li class="nav-item">
+              <a class="nav-link m-2 menu-item js-scrolltrigger" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2 menu-item js-scrolltrigger" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2 menu-item js-scrolltrigger" href="resume.pdf" target="_blank">Resume</a>
+            </li>
+          </ul>
+        </div>
 
+        <div class="navbar-collapse collapse dual-nav w-50 order-1" id="navbarResponsive">
+          <ul class="nav navbar-nav ">
+            <li class="nav-item ">
+              <a class="nav-link" href="https://www.linkedin.com/in/quylan-mac-0a906b16a/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/quylanmac/" target="_blank">
+                <i class="icon-social-github"></i>
+              </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="mailto:quylanmac@gmail.com" target="_blank">
+                <i class="far fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <div class="container">
       <!-- Header -->
-  <header class="test masthead">
+      <header class="test masthead">
         <div class="container">
-            <div style="padding-top:150px; padding-bottom:100px;text-align:center;">
-          <div>
-            <h2>Eggspired</h2>
-                <div><img src="img/eggspiredlogo.png"></img></div> 
-                <h3>A web application project made in 36 hours at SD Hacks 2019</h3>
-          </div>
-          <nav id="secondNav" class="nabar navbar-expand-lg">
+          <div style="padding-top:150px; padding-bottom:100px;text-align:center;">
+            <div>
+              <h2>Eggspired</h2>
+              <div><img src="img/eggspiredlogo.png"></img></div>
+              <h3>A web application project made in 36 hours at SD Hacks 2019</h3>
+            </div>
+            <nav id="secondNav" class="nabar navbar-expand-lg">
               <ul class="navbar-nav justify-content-between flex-nowrap">
                 <li class="nav-item"><a class="nav-link" href="#about">About the Project</a></li>
                 <li class="nav-item"><a class="nav-link" href="#function">How it Works</a></li>
-                <li class="nav-item"><a class="nav-link" href="#reflection">Reflections</a></li>    
+                <li class="nav-item"><a class="nav-link" href="#reflection">Reflections</a></li>
               </ul>
             </nav>
+          </div>
         </div>
       </header>
 
-<!--Information-->
-<section class="page-section" id="portfolio">
-<div class="container">
-    <section id="about" style="padding:10%; margin-bottom:-10%">
+      <!--Information-->
 
-<h3>About the project</h3>
-<div class="no-gutters">
-<p>The idea behind this project was to create something that people use often, but <strong>not efficiently</strong>.
-  With our goal in mind of focusing on sustainability, we had looked at things that people often overlook
-  in everyday activities that amalgamate to be a bigger issue than someone may think on an individual basis. 
-</p>
-<p>People go to stores to buy items that they need, or rather that they think they need. A majority of people
-  reported that they have had experiences where they have had to throw out and waste items because they had expired.
-  On average, every year, this has caused approximately <strong>1.3 billion tons</strong> of solely food to be wasted every year,
-  not even mentioning the amount of money being wasted in natural resources. 
-</p>
-<p>
-  Essentially, what we had come up with is something that most people use: a grocery list. However, we looked
-  to expand upon this commodity by integrating it with an <strong>automated expiration tool </strong>that displayed the time and date
-  of expiration as well as sending out a reminder text when that time was near. We believed that this would greatly
-  <strong>reduce the amount of waste </strong>we produce as people often forget about certain items, or don't know how long it takes
-  until expiration. As well as reducing the waste, it also saves users money while helping them stay organized.
-</p>
-</div>
-</section>
+      <section id="about" style="padding:10%; margin-bottom:-10%">
 
-<section id="function" style="padding:10%; margin-bottom:-10%">
-<h3>How It Works</h3>
-<div class="no-gutters">
-  <p>I had first created the bare front-end of the website with HTML, CSS, and JavaScript to function
-    as a grocery list that was able to take user input of items and add them to the screen. The main 
-    functionality of the application comes from the back-end. First, we webscraped data from a website called
-    eatbydate.com to create a database in mySQL of various grocery items and their corresponding
-    expiration dates.   
-  </p>
-  <img src="img/eggspired/Eggspired Catalog.png"> </img>
-  <p>
-    Using PHP, we connected our front-end to take user input of added grocery items
-    and insert them into a separate part of our database. 
-</p>
-<img src="img/eggspired/Eggspired Database.png"> </img>
-
-<p>
-      When the user checks the item off of their
-      list, we send a post request for that key name to find the matching value it takes until expiration. The
-      time is then parsed into a date from the current time and displayed back on the bottom of the list. 
-  </p>
-  <div class="embed-responsive embed-responsive-16by9">
-  <video class="demo" controls muted poster="img/eggspired.png"><source src="img/eggspired/EggspiredDemo.mp4" type="video/mp4"></video>
-  </div><p>
-      I had connected the database to an automated system where the current time is checked against the 
-      expiration date. If the expiration is within a day or less, the program connects to Twilio and
-      sends out a text message reminding the user of their specific item and that the expiration is near. 
-    </p>
-    <img style="width:25%" src="img/eggspired/twilio.PNG"> </img>
-</div>
-</section>
-
-<section id="reflection" style="padding:10%">
-<h3 >Reflections</h3>
-<div class="no-gutters">
-<p>
-  We had found challenges coding the back end of the project as it was my first experience working
-  with PHP and mySQL. We found ourselves stuck at parts where the data was not posting correctly
-  as it was not properly connected to the front-end of our site. With the help of our mentor,
-  we were able to move past this hurdle. Our team worked very hard to complete the project within
-  the short time period allowed, and we feel very proud that we were successfully able to demo 
-  our project with the functionality we wanted. 
-</p>
-<p>
-  Future improvements we wanted to work on included a secondary page to more easily differentiate
-  the grocery list from already-purchased items. Also, we hoped to implement an auto-fill search
-  bar that looked for items in the database of expiration dates. Finally, we wished to upload
-  the application to a server and host it for users to actually use. 
-</p>
-<p>
-  Thank you to our team: Quylan Mac, Parth Shah, Amy An, and Vedparkash Singh.
-</p>
-<p>
-  Thank you to our mentor: Oscar Pan
-</p>
-<p style="max-width:100%">
-  Citations: https://www.w3schools.com/ 
-  http://www.fao.org/nr/sustainability/food-loss-and-waste/en/ 
-  https://www.nrdc.org/media/2013/130918 
-   http://www.eatbydate.com/eggs-shelf-life-expiration-date// 
-  http://www.fao.org/save-food/resources/keyfindings/en/
-</p>
-<p>
-  Check out our <a href="https://devpost.com/software/eggspired-finished">DevPost</a> post and 
-  <a href="https://github.com/quylanmac/Eggspired-Finished">GitHub</a> repository!
-</p>
-</div>
-</section>
-</div>
-      </section>
-    
-      <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-            <i class="fas fa-angle-up"></i>
-          </a>
+        <h3>About the project</h3>
+        <div class="no-gutters">
+          <p>The idea behind this project was to create something that people use often, but <strong>not
+              efficiently</strong>.
+            With our goal in mind of focusing on sustainability, we had looked at things that people often overlook
+            in everyday activities that amalgamate to be a bigger issue than someone may think on an individual basis.
+          </p>
+          <p>People go to stores to buy items that they need, or rather that they think they need. A majority of people
+            reported that they have had experiences where they have had to throw out and waste items because they had
+            expired.
+            On average, every year, this has caused approximately <strong>1.3 billion tons</strong> of solely food to be
+            wasted every year,
+            not even mentioning the amount of money being wasted in natural resources.
+          </p>
+          <p>
+            Essentially, what we had come up with is something that most people use: a grocery list. However, we looked
+            to expand upon this commodity by integrating it with an <strong>automated expiration tool </strong>that
+            displayed the time and date
+            of expiration as well as sending out a reminder text when that time was near. We believed that this would
+            greatly
+            <strong>reduce the amount of waste </strong>we produce as people often forget about certain items, or don't
+            know how long it takes
+            until expiration. As well as reducing the waste, it also saves users money while helping them stay
+            organized.
+          </p>
         </div>
-      <!-- Bootstrap core JavaScript -->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-    
-      <!-- Plugin JavaScript -->
-      <script src="js/jquery.easing.min.js"></script>
-    
-      <!-- Contact form JavaScript -->
-      <script src="js/jqBootstrapValidation.js"></script>
-      <script src="js/contact_me.js"></script>
-    
-      <!-- Custom scripts for this template -->
-      <script src="js/agency.min.js"></script>
-    
-    </body>
-    </html>
+      </section>
+
+      <section id="function" style="padding:10%; margin-bottom:-10%">
+        <h3>How It Works</h3>
+        <div class="no-gutters">
+          <p>I had first created the bare front-end of the website with HTML, CSS, and JavaScript to function
+            as a grocery list that was able to take user input of items and add them to the screen. The main
+            functionality of the application comes from the back-end. First, we webscraped data from a website called
+            eatbydate.com to create a database in mySQL of various grocery items and their corresponding
+            expiration dates.
+          </p>
+          <img src="img/eggspired/Eggspired Catalog.png"> </img>
+          <p>
+            Using PHP, we connected our front-end to take user input of added grocery items
+            and insert them into a separate part of our database.
+          </p>
+          <img src="img/eggspired/Eggspired Database.png"> </img>
+
+          <p>
+            When the user checks the item off of their
+            list, we send a post request for that key name to find the matching value it takes until expiration. The
+            time is then parsed into a date from the current time and displayed back on the bottom of the list.
+          </p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <video class="demo" controls muted poster="img/eggspired.png">
+              <source src="img/eggspired/EggspiredDemo.mp4" type="video/mp4"></video>
+          </div>
+          <p>
+            I had connected the database to an automated system where the current time is checked against the
+            expiration date. If the expiration is within a day or less, the program connects to Twilio and
+            sends out a text message reminding the user of their specific item and that the expiration is near.
+          </p>
+          <img style="width:35%" src="img/eggspired/twilio.PNG"> </img>
+        </div>
+      </section>
+
+      <section id="reflection" style="padding:10%">
+        <h3>Reflections</h3>
+        <div class="no-gutters">
+          <p>
+            We had found challenges coding the back end of the project as it was my first experience working
+            with PHP and mySQL. We found ourselves stuck at parts where the data was not posting correctly
+            as it was not properly connected to the front-end of our site. With the help of our mentor,
+            we were able to move past this hurdle. Our team worked very hard to complete the project within
+            the short time period allowed, and we feel very proud that we were successfully able to demo
+            our project with the functionality we wanted.
+          </p>
+          <p>
+            Future improvements we wanted to work on included a secondary page to more easily differentiate
+            the grocery list from already-purchased items. Also, we hoped to implement an auto-fill search
+            bar that looked for items in the database of expiration dates. Finally, we wished to upload
+            the application to a server and host it for users to actually use.
+          </p>
+          <p>
+            Thank you to our team: Quylan Mac, Parth Shah, Amy An, and Vedparkash Singh.
+          </p>
+          <p>
+            Thank you to our mentor: Oscar Pan
+          </p>
+          <p style="max-width:100%">
+            Citations: https://www.w3schools.com/
+            http://www.fao.org/nr/sustainability/food-loss-and-waste/en/
+            https://www.nrdc.org/media/2013/130918
+            http://www.eatbydate.com/eggs-shelf-life-expiration-date//
+            http://www.fao.org/save-food/resources/keyfindings/en/
+          </p>
+          <p>
+            Check out our <a href="https://devpost.com/software/eggspired-finished">DevPost</a> post and
+            <a href="https://github.com/quylanmac/Eggspired-Finished">GitHub</a> repository!
+          </p>
+        </div>
+      </section>
+    </div>
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
